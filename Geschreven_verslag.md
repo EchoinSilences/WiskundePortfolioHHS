@@ -51,6 +51,19 @@ Negatieve waarden worden vervangen door de mediaan van de geldige waarden
 
 ## 4. Geef een beschrijving van de 3 visualisaties met behulp van statistische termen.
 
+### 4.1 Visualisatie 1 – Verdeling van km_auto_per_jaar 
+Op de visualisatie van km_auto_per_jaar is te zien dat we te maken hebben een rechtsscheven verdeling. Er is een duidelijke aanwezigheid van uitschieters, zo kunnen we zien dat de staart sterk naar rechts loopt tot circa. 35.000 km. Dit suggereert dat de meeste personen weinig kilometers per auto reiden maar een kleine groep rijdt meer.	
+
+### 4.2 Visualisatie 2 – Verdeling van km_fiets_per_jaar
+Op de visualisatie van km_fiets_per_jaar is te zien we een normaal verdeling (mesokurtic), met een duidelijke piek rondom 2000 km. Aan de linkerkant van de grafiek zien we een duidelijke piek van het aantal mensen wat geen fiets bezit, en dus logischerwijs ook geen kilometers maakt.
+
+### 4.3 Visualisatie 3 – Verdeling van co2_uitstoot_per_jaar_KG
+Ook deze verdeling is rechtsscheef, met een hoge piek bij lage CO₂ waarden. Naast de hoge piek aan de linkerkant is er een tweede, bredere verhoging rond 5.000/10.000 kg. Dit kan erop wijzen dat er twee subgroepen in de dataset aanwezig zijn in dit geval denken we mensen met en zonder auto. 
+### 4.4 Visualisatie 4 – km_auto_per_jaar vs co2_uitstoot_per_jaar_KG
+Er is een sterke, positieve lineaire samenhang zichtbaar tussen het aantal autokilometers en de CO₂ uitstoot. De regressielijn heeft een duidelijk positieve helling, wat wijst op een hoog correlatiecoëfficiënt.
+
+### 4.5 Visualisatie 5 – km_fiets_per_jaar  vs co2_uitstoot_per_jaar 
+De regressielijn is nagenoeg horizontaal, wat wijst op geen lineaire samenhang tussen fietskilometers en CO₂ uitstoot. De puntenwolk is breed verspreid zonder duidelijk patroon, wat duidt op een correlatie nabij nul.
 
 
 ---
