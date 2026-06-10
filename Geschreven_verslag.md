@@ -78,12 +78,17 @@ Een groot deel van de personen heeft weinig tot geen auto of fiets kilometers af
 ---
 
 ## 7. Wat kan je zeggen over de relaties tussen de variabelen?
-
+Uit de correlatiematrix blijkt dat vooral het aantal autokilometers sterk samenhangt met de jaarlijkse CO₂ uitstoot. De correlatie tussen km_auto_per_jaar en co2_uitstoot_per_jaar_KG bedraagt 0,903. 
+Dit is een zeer sterke positieve correlatie personen die meer kilometers met de auto rijden, hebben over het algemeen een aanzienlijk hogere CO₂ uitstoot. De overige numerieke variabelen hebben een veel zwakkere samenhang met de CO₂ uitstoot. 
 
 
 ---
 
 ## 8. Welke methode(n) heb je gebruikt en waarom?
+Om de relaties tussen de numerieke variabelen te onderzoeken, is een correlatiematrix gebruikt. 
+De uitkomsten zijn weergegeven in een heatmap. Daarnaast zijn de correlaties met co2_uitstoot_per_jaar_KG apart gesorteerd, zodat direct zichtbaar wordt welke numerieke variabelen het sterkst samenhangen met de afhankelijke variabele.
+De correlatiematrix is geschikt omdat de onderzochte variabelen op rationiveau zijn gemeten. 
+De nominale variabelen, zoals stad, autobezit en fietsbezit, kunnen niet rechtstreeks op dezelfde manier worden geïnterpreteerd in een standaard correlatiematrix. Voor het vergelijken van groepen wordt later daarom een afzonderlijke statistische toets gebruikt.
 
 
 
