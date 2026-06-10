@@ -37,7 +37,15 @@ Het meetniveau van een variabele bepaalt welke statistische bewerkingen en analy
 
 ## 3. Hoe ben je omgegaan met missende/niet kloppende/extreme waarden in de dataset?
 
+Missende waarden
 
+Detecteert welke kolommen nulls bevatten
+Numeriek → imputeer met de mediaan (robuuster dan het gemiddelde bij uitschieters)
+Categorisch → imputeer met de modus
+2. Niet-kloppende waarden (negatief)
+
+Kolommen zoals km_auto_per_jaar en jaarsalaris_eu kunnen logischerwijs nooit negatief zijn
+Negatieve waarden worden vervangen door de mediaan van de geldige waarden
 
 ---
 
