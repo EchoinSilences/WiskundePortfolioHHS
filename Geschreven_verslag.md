@@ -112,7 +112,10 @@ De geschatte kans dat een willekeurig persoon meer dan 5.000 KG CO₂ per jaar u
 ---
 
 ## 10. Stel de hypothesen op.
-
+Wij onderzoeken of er een statistisch significant verschil bestaat in de jaarlijkse CO₂ uitstoot tussen personen met en zonder een auto. De gekozen categoriale variabele is `autobezit`.
+H₀: Er is geen verschil in de gemiddelde jaarlijkse CO₂ uitstoot tussen personen met en zonder een auto.
+H₁: Er is een statistisch significant verschil in de gemiddelde jaarlijkse CO₂-uitstoot tussen personen met en zonder een auto.
+Significantieniveau: α = 0,05
 
 
 ---
