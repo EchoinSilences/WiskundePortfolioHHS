@@ -99,7 +99,12 @@ Negatieve waarden worden vervangen door de mediaan van de geldige waarden
 
 Bij het toetsen van een hypothese neem je een beslissing over de nulhypothese (H₀): je verwerpt de hypothese of je verwerpt het niet. Aangezien je deze beslissing baseert op een steekproef en niet op alle beschikbare data, kun je daarbij twee soorten fouten maken.
 
-De eerste is de `Type I fout`, dit wordt ook wel het vals positief genoemd. Deze fout maak je wanneer je de nulhypothese verwerpt terwijl zij in werkelijkheid waar is. 
+De eerste is de `Type I fout`, dit wordt ook wel het vals positief genoemd. Deze fout maak je wanneer je de nulhypothese verwerpt terwijl het in werkelijkheid waar is. Je concludeert dan dat er een effect of verschil is, terwijl dat in werkelijkheid niet het geval is. 
+
+De tweede is de `Type II fout`, ook wel het vals negatief genoemd. Deze fout maak je wanneer je de nulhypothese niet verwerpt terwijl het in werkelijkheid onwaar is. Je mist dan een effect dat er in werkelijkheid wel bestaat. Je concludeert uiteindelijk dus dat er geen verschil of effect is, terwijl dat er wel degelijk is. 
+
+Welke fout minder erg is, hangt volledig af van de situatie. Er is geen antwoord op de vraag welke fout beter is om te maken. Je moet per situatie afwegen wat de gevolgen zijn van een onterechte conclusie tegen het missen van een werkelijk effect. Hierop kun je uiteindelijk je onderzoek op afstemmen. 
+
 
 ---
 
@@ -111,7 +116,7 @@ De eerste is de `Type I fout`, dit wordt ook wel het vals positief genoemd. Deze
 
 ## 13. Geef in je eigen woorden een toelichting op de betekenis van de p-waarde.
 
-robin
+De p-waarde is een getal tussen 0 en 1 dat aangeeft hoe bijzonder je uitkomst is. Hoe lager de p-waarde, hoe opvallender je resultaat. Wanneer de p-waarde kleiner is dan het gekozen significantieniveau, kun je stellen dat de gevonden uitkomst significant genoeg is om de nulhypothese te verwerpen en er dus een echt verschil is. 
 
 ---
 
