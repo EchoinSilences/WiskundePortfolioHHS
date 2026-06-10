@@ -55,7 +55,7 @@ Het meetniveau van een variabele bepaalt welke statistische bewerkingen en analy
 
 ## 6. Om ervoor te zorgen dat de onafhankelijke variabelen gebruikt kunnen worden voor Machine Learning moeten ze getransformeerd worden. Geef per meetniveau aan wat er moet gebeuren.
 
-
+robin
 
 ---
 
@@ -85,7 +85,9 @@ Het meetniveau van een variabele bepaalt welke statistische bewerkingen en analy
 
 ## 11. Welke type fouten kunnen er gemaakt worden?
 
+Bij het toetsen van een hypothese neem je een beslissing over de nulhypothese (H₀): je verwerpt de hypothese of je verwerpt het niet. Aangezien je deze beslissing baseert op een steekproef en niet op alle beschikbare data, kun je daarbij twee soorten fouten maken.
 
+De eerste is de `Type I fout`, dit wordt ook wel het vals positief genoemd. Deze fout maak je wanneer je de nulhypothese verwerpt terwijl zij in werkelijkheid waar is. 
 
 ---
 
@@ -97,7 +99,7 @@ Het meetniveau van een variabele bepaalt welke statistische bewerkingen en analy
 
 ## 13. Geef in je eigen woorden een toelichting op de betekenis van de p-waarde.
 
-
+robin
 
 ---
 
