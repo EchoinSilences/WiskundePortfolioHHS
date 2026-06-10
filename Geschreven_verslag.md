@@ -160,7 +160,7 @@ Bij een 80/20-split van 1500 observaties zijn er ongeveer 2,48 × 10³²⁴ moge
 
 ## 16. Welke metric zou je gebruiken om te toetsen hoe goed je model is en waarom?
 
-
+Om te toetsen hoe goed het model presteert, gebruiken wij de R²-score en de RMSE (Root Mean Squared Error). De R²-score geeft aan welk percentage van de variatie in CO₂-uitstoot door het model wordt verklaard. Een waarde dichter bij 1 betekent dat het model de data goed beschrijft. De RMSE geeft aan hoe ver de voorspellingen gemiddeld afwijken van de werkelijke waarden, uitgedrukt in dezelfde eenheid als de doelvariabele. Hoe lager de RMSE, hoe nauwkeuriger het model voorspelt. Door beide metrics samen te gebruiken krijg je zowel inzicht in de verklarende kracht van het model als in de grootte van de voorspelfouten.
 
 ---
 
