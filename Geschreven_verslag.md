@@ -65,6 +65,8 @@ Ook deze verdeling is rechtsscheef, met een hoge piek bij lage CO₂ waarden. Na
 ---
 
 ## 5. Wat is de conclusie met betrekking tot de drie verdelingen?
+Alle 3 de visualisaties worden sterk beïnvloed door extremen waarden rondom de 0. 
+Een groot deel van de personen heeft weinig tot geen auto of fiets kilometers afgelegd dat jaar.
 
 
 
