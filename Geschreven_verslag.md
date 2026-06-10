@@ -38,12 +38,11 @@ Het meetniveau van een variabele bepaalt welke statistische bewerkingen en analy
 ## 3. Hoe ben je omgegaan met missende/niet kloppende/extreme waarden in de dataset?
 
 Missende waarden
-
 Detecteert welke kolommen nulls bevatten
 Numeriek → imputeer met de mediaan (robuuster dan het gemiddelde bij uitschieters)
 Categorisch → imputeer met de modus
-2. Niet-kloppende waarden (negatief)
 
+Niet-kloppende waarden (negatief)
 Kolommen zoals km_auto_per_jaar en jaarsalaris_eu kunnen logischerwijs nooit negatief zijn
 Negatieve waarden worden vervangen door de mediaan van de geldige waarden
 
@@ -60,15 +59,11 @@ Op de visualisatie van km_fiets_per_jaar is te zien we een normaal verdeling (me
 ### 4.3 Visualisatie 3 – Verdeling van co2_uitstoot_per_jaar_KG
 Ook deze verdeling is rechtsscheef, met een hoge piek bij lage CO₂ waarden. Naast de hoge piek aan de linkerkant is er een tweede, bredere verhoging rond 5.000/10.000 kg. Dit kan erop wijzen dat er twee subgroepen in de dataset aanwezig zijn in dit geval denken we mensen met en zonder auto. 
 
-
-
 ---
 
 ## 5. Wat is de conclusie met betrekking tot de drie verdelingen?
 Alle 3 de visualisaties worden sterk beïnvloed door extremen waarden rondom de 0. 
 Een groot deel van de personen heeft weinig tot geen auto of fiets kilometers afgelegd dat jaar.
-
-
 
 ---
 
