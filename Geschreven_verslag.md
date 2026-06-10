@@ -59,11 +59,7 @@ Op de visualisatie van km_fiets_per_jaar is te zien we een normaal verdeling (me
 
 ### 4.3 Visualisatie 3 – Verdeling van co2_uitstoot_per_jaar_KG
 Ook deze verdeling is rechtsscheef, met een hoge piek bij lage CO₂ waarden. Naast de hoge piek aan de linkerkant is er een tweede, bredere verhoging rond 5.000/10.000 kg. Dit kan erop wijzen dat er twee subgroepen in de dataset aanwezig zijn in dit geval denken we mensen met en zonder auto. 
-### 4.4 Visualisatie 4 – km_auto_per_jaar vs co2_uitstoot_per_jaar_KG
-Er is een sterke, positieve lineaire samenhang zichtbaar tussen het aantal autokilometers en de CO₂ uitstoot. De regressielijn heeft een duidelijk positieve helling, wat wijst op een hoog correlatiecoëfficiënt.
 
-### 4.5 Visualisatie 5 – km_fiets_per_jaar  vs co2_uitstoot_per_jaar 
-De regressielijn is nagenoeg horizontaal, wat wijst op geen lineaire samenhang tussen fietskilometers en CO₂ uitstoot. De puntenwolk is breed verspreid zonder duidelijk patroon, wat duidt op een correlatie nabij nul.
 
 
 ---
