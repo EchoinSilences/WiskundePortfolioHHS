@@ -95,6 +95,17 @@ De nominale variabelen, zoals stad, autobezit en fietsbezit, kunnen niet rechtst
 ---
 
 ## 9. Geef een korte beschrijving over hoe je hebt berekend wat de kans is dat een willekeurig persoon 5000 KG CO2 uitstoot.
+Om te berekenen of een willekeurig persoon meer dan 5000 kilogram CO₂ per jaar uitstoot, is er eerst gekeken naar het gemiddelde en de standaardafwijking van CO₂ uitstoot. 
+	Gemiddelde: 4911,24 KG
+	Standaardafwijking: 3414,94 KG 
+De grenswaarde van 5000 KG is gestandaardiseerd met de z-score:
+
+z=(x-μ)/σ  =  (5000 - 4911,24)/3424,94 ≈ 0,0260
+
+Vervolgens is met behulp van de standaard normale verdeling de oppervlakte rechts van de z-score berekend: 
+P(X>5000)=1-Φ(0,0260)≈0,4896
+
+De geschatte kans dat een willekeurig persoon meer dan 5.000 KG CO₂ per jaar uitstoot bedraagt dus ongeveer 48,96%. 
 
 
 
