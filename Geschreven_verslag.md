@@ -121,7 +121,7 @@ Welke fout minder erg is, hangt volledig af van de situatie. Er is geen antwoord
 
 ## 12. Welke statistische toets moet je uitvoeren om te onderzoeken of er een significant verschil is?
 
-
+De Mann-Whitney U-toets is een niet-parametrische toets die je gebruikt om te onderzoeken of er een significant verschil is tussen twee onafhankelijke groepen In tegenstelling tot de t-toets hoeft de data niet normaal verdeeld te zijn, waardoor deze toets geschikt is wanneer je data niet aan die voorwaarde voldoet. De toets vergelijkt de rangorden van de waarden in beide groepen in plaats van de gemiddelden. Wanneer de p-waarde van de toets lager is dan het gekozen significantieniveau, concludeer je dat er een significant verschil bestaat tussen de twee groepen.
 
 ---
 
@@ -133,12 +133,13 @@ De p-waarde is een getal tussen 0 en 1 dat aangeeft hoe bijzonder je uitkomst is
 
 ## 14. Welke conclusie kan je trekken op basis van de statistische toets?
 
-
+Op basis van de Mann-Whitney U-toets kan geconcludeerd worden dat er een statistisch significant verschil is in CO₂-uitstoot tussen personen met en zonder autobezit. De p-waarde is kleiner dan het significantieniveau van 0,05, waardoor de nulhypothese wordt verworpen. Dit betekent dat autobezit samenhangt met een verschil in CO₂-uitstoot. Het is echter belangrijk om op te merken dat dit niet automatisch betekent dat autobezit de oorzaak is van een hogere of lagere CO₂-uitstoot de toets toont enkel aan dat er een significant verschil bestaat tussen de twee groepen, niet dat er sprake is van een oorzakelijk verband.
 
 ---
 
 ## 15. Op hoeveel verschillende mogelijkheden kan deze split gemaakt worden? Gebruik de wetenschappelijke notatie voor grote getallen. VB: 15000 = 1,5 × 10⁴
 
+Bij een 80/20-split van 1500 observaties zijn er ongeveer 2,48 × 10³²⁴ mogelijke manieren waarop deze split gemaakt kan worden.
 
 
 ---
