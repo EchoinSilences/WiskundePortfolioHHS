@@ -63,7 +63,11 @@ Negatieve waarden worden vervangen door de mediaan van de geldige waarden
 
 ## 6. Om ervoor te zorgen dat de onafhankelijke variabelen gebruikt kunnen worden voor Machine Learning moeten ze getransformeerd worden. Geef per meetniveau aan wat er moet gebeuren.
 
-robin
+| Meetniveau | Transformatie | Toelichting |
+|---|---|---|
+| **Nominaal** | One-hot encoding | Nominale variabelen hebben geen volgorde. Door ze om te zetten naar binaire kolommen (0/1) per categorie begrijpt het model de categorieën zonder een onjuiste volgorde aan te nemen. Bijvoorbeeld: `geslacht` wordt `geslacht_man` en `geslacht_vrouw`. |
+| **Ordinaal** | Label encoding (of ordinal encoding) | Ordinale variabelen hebben een logische volgorde (bijv. `opleiding_niveau`: laag < midden < hoog). Deze volgorde wordt behouden door elke categorie een oplopend geheel getal toe te kennen. |
+| **Ratio** | Standaardisatie (StandardScaler) of normalisatie (MinMaxScaler) | Ratiovariabelen zoals `km_auto_per_jaar` en `jaarsalaris_eu` kunnen sterk in schaal verschillen. Standaardisatie (gemiddelde = 0, std = 1) zorgt dat geen enkele variabele de andere domineert in het model. |
 
 ---
 
